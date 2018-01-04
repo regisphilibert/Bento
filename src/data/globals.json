@@ -1,0 +1,322 @@
+{
+	"test" : "bonjour",
+	"menus" : {
+		"main" : [
+			{
+				"title" : "Events",
+				"children" : [
+					{
+						"title": "Creative Mornings"
+					},
+					{
+						"title": "DLD17"
+					},
+					{
+						"title": "Maison & Objet"
+					},
+					{
+						"title": "Interaction 17"
+					},
+					{
+						"title": "Off Grid 17"
+					},
+					{
+						"title": "OFFSET Dublin"
+						,"children" : [
+							{
+								"title": "Design for Next"
+								,"slug":"/"
+							},
+							{
+								"title": "TED"
+								,"slug":"/"
+							},
+							{
+								"title": "Pictoplasma Conference"
+								,"slug":"/"
+							},
+							{
+								"title": "By Design Conference"
+								,"slug":"/"
+							},
+							{
+								"title": "What Design Can Do"
+								,"slug":"/"
+							},
+							{
+								"title": "The Design Conference"
+							},
+							{
+								"title": "TYPO Berlin"
+							},
+							{
+								"title": "RGD Design Thinkers 2017"
+							},
+							{
+								"title": "REDO Cumulus"
+							},
+							{
+								"title": "99U Conference"
+							},
+							{
+								"title": "NeoCon"
+							}
+						]
+					},
+					{
+						"title": "Design Indaba Conference"
+					},
+					{
+						"title": "SXSW"
+					},
+					{
+						"title": "TEI"
+					},
+					{
+						"title": "Salone del Mobile Milano"
+					}
+				]
+			}
+			,{
+				"title" : "3 Levels of Excuses",
+				"children" : [
+					{
+						"title": "I have food poisoning."
+						,"slug":"/"
+					},
+					{
+						"title": "I have the flu."
+						,"slug":"/"
+					},
+					{
+						"title": "My kid is sick."
+						,"slug":"/"
+					},
+					{
+						"title": "Trouble with my car."
+						,"slug":"/"
+					},
+					{
+						"title": "Someone is in the hospital."
+						,"slug":"/"
+					},
+					{
+						"title": "I have a cold."
+						,"slug":"/"
+					},
+					{
+						"title":"More Excuses",
+						"children": [
+							{
+								"title": "Tragedy in the family."
+								,"slug":"/"
+							},
+							{
+								"title": "Doctor's appointment."
+								,"slug":"/"
+							},
+							{
+								"title": "I have the runs."
+								,"slug":"/"
+							},
+							{
+								"title": "I'm sick."
+								,"slug":"/"
+							},
+							{
+								"title": "I had an allergic reaction to something."
+								,"slug":"/"
+							},
+							{
+								"title": "Relative's funeral."
+								,"slug":"/"
+							},
+							{
+								"title": "I got in a car accident."
+								,"slug":"/"
+							},
+							{
+								"title": "I'm snowed in."
+								,"slug":"/"
+							},
+							{
+								"title": "There was a death in the family."
+								,"slug":"/"
+							},
+							{
+								"title": "Even more excuses",
+								"children" : [
+									{
+										"title": "I have a crazy migraine."
+										,"slug":"/"
+									},
+									{
+										"title": "I need a personal day."
+										,"slug":"/"
+									},
+									{
+										"title": "Emergency dental repair."
+										,"slug":"/"
+									},
+									{
+										"title": "I need a mental health day."
+										,"slug":"/"
+									},
+									{
+										"title": "Because I earned it!."
+										,"slug":"/"
+									},
+									{
+										"title": "I'm selected for jury duty."
+										,"slug":"/"
+									},
+									{
+										"title": "I'm dead."
+										,"slug":"/"
+									},
+									{
+										"title": "My pet is sick."
+										,"slug":"/"
+									},
+									{
+										"title": "My flight back into town got cancelled."
+										,"slug":"/"
+									},
+									{
+										"title": "I have to meet with my kid's teacher."
+										,"slug":"/"
+									},
+									{
+										"title": "The roads around my house are closed due to weather."
+										,"slug":"/"
+									},
+									{
+										"title": "I locked my keys in my car."
+										,"slug":"/"
+									},
+									{
+										"title": "I have a bladder infection."
+										,"slug":"/"
+									},
+									{
+										"title": "I have lice."
+										,"slug":"/"
+									},
+									{
+										"title": "I'm waiting for a plumber."
+										,"slug":"/"
+									},
+									{
+										"title": "I'm moving."
+										,"slug":"/"
+									},
+									{
+										"title": "I'm getting my wisdom teeth removed."
+										,"slug":"/"
+									},
+									{
+										"title": "My sister/best friend is going into labor."
+										,"slug":"/"
+									},
+									{
+										"title": "Someone tried to rob me during the night."
+										,"slug":"/"
+									},
+									{
+										"title": "I have bad cramps."
+										,"slug":"/"
+									},
+									{
+										"title": "I pooed in my pants on the way to work."
+										,"slug":"/"
+									},
+									{
+										"title": "My toilet exploded."
+										,"slug":"/"
+									},
+									{
+										"title": "Electricity went out."
+										,"slug":"/"
+									},
+									{
+										"title": "Spring fever."
+										,"slug":"/"
+									},
+									{
+										"title": "Already completed all of my tasks."
+										,"slug":"/"
+									},
+									{
+										"title": "I lost my glasses."
+										,"slug":"/"
+									},
+									{
+										"title": "I don't want to go to my shitty job today."
+										,"slug":"/"
+									},
+									{
+										"title": "I won $500 million in the lottery, I quit!."
+										,"slug":"/"
+									},
+									{
+										"title": "I have to drive someone to the airport."
+									,"slug":"/"
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+			,{
+				"title" : "Weather",
+				"children" : [
+					{
+						"title": "Sunny"
+						,"slug":"/"
+					},
+					{
+						"title": "Mostly Sunny"
+						,"slug":"/"
+					},
+					{
+						"title": "Partly Sunny"
+						,"slug":"/"
+					},
+					{
+						"title": "Intermittent Clouds"
+						,"slug":"/"
+					},
+					{
+						"title": "Hazy Sunshine"
+						,"slug":"/"
+					},
+					{
+						"title": "Mostly Cloudy"
+						,"slug":"/"
+					},
+					{
+						"title": "Cloudy"
+						,"slug":"/"
+					},
+					{
+						"title": "Dreary"
+						,"slug":"/"
+					},
+					{
+						"title": "Fog"
+						,"slug":"/"
+					},
+					{
+						"title": "Showers"
+						,"slug":"/"
+					},
+					{
+						"title": "Mostly Cloudy with Showers"
+						,"slug":"/"
+					}
+				]
+			}
+		]
+	}
+}

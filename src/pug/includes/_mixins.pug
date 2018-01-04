@@ -1,0 +1,16 @@
+//Helpers
+mixin fa(name)
+	- name = name || 'flag'
+	- classes = attributes.class || ''
+	i.fa(class='fa-' + name, class=classes, aria-hidden="true")
+
+mixin Nav(item)
+	li.phi-MainNav__item(class= typeof item.children != 'undefined' ? 'phi-MainNav__item--has-children' : '', class= typeof item.class != "undefined" ? item.class : '')
+			a(href= item.slug)= item.title
+			if(typeof item.children != 'undefined')
+				ul.phi-MainNav__sub
+					each subitem in item.children
+						+Nav(subitem)
+
+mixin Bonjour(name)
+	p Bonjour #{name}

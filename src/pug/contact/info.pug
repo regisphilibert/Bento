@@ -1,0 +1,12 @@
+extends ../layouts/_default.pug
+
+block append variables
+	- title = "Contact > Info"
+
+block content
+	.phi-container
+		h2 Contact
+
+		address
+			p=faker.address.streetAddress()
+		p #[a(href="mailto:gomail@your.self", data-rot-email=locals.rot13("login@regisphilibert.com")) gomail@your.self]

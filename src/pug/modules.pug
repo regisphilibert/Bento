@@ -1,0 +1,22 @@
+extends layouts/_default.pug
+
+block append head
+	//- If page needs appending to <head>
+		link(rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css")
+
+block append variables
+	- var title = "FE Proto | Modules"
+
+block content
+
+	.phi-container
+		h2 This is the modules...
+	
+
+	.phi-container
+		h3 #[+fa('square-o')] Well
+		include includes/modules/_Well
+	
+block append foot
+	//- If page needs appending to foot
+		script(type='text/javascript' src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js")
