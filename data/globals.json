@@ -1,7 +1,7 @@
 {
 	"test" : "bonjour",
-	"title": "Phil (with Webpack)",
-	"description":"Phil is a first hurridly conceived acronym made up for the sole purpose of flattering the ego of it's pseudo creator, webpack stagic website boilerplate second.",
+	"title": "Bento (with Webpack)",
+	"description":"Bento is a lunch box made with care. In it you'll some jade, some sass, no rice. Together they form a healthy stagic website boilerplate built with Webpack.",
 	"menus" : {
 		"main" : [
 			{

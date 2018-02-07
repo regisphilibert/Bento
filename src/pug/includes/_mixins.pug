@@ -5,10 +5,10 @@ mixin fa(name)
 	i.fa(class='fa-' + name, class=classes, aria-hidden="true")
 
 mixin Nav(item)
-	li.phi-MainNav__item(class= typeof item.children != 'undefined' ? 'phi-MainNav__item--has-children' : '', class= typeof item.class != "undefined" ? item.class : '')
+	li.ben-MainNav__item(class= typeof item.children != 'undefined' ? 'phi-MainNav__item--has-children' : '', class= typeof item.class != "undefined" ? item.class : '')
 			a(href= item.slug)= item.title
 			if(typeof item.children != 'undefined')
-				ul.phi-MainNav__sub
+				ul.ben-MainNav__sub
 					each subitem in item.children
 						+Nav(subitem)
 
